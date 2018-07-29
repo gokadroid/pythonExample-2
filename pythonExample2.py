@@ -1,5 +1,4 @@
-#Simple program to find the nth element from a sentence based on start as true or false
-
+#Simple program to reverse a string character by character to show usage of for loop and range function
 def reverseString(sentence):
     reversed=[] #create empty list
     for i in range(len(sentence),0,-1): #starting from end, push each character of sentence into list as a character
